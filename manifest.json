@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Uber Rating",
+  "version": "1.0.0",
+  "description": "Uber Rating is a chrome plugin to find your Uber passenger rating.",
+  "author" : "http://github.com/aaln",
+
+  "icons": {
+    "128" : "icon-128.png"
+  },
+
+  "browser_action": {
+	"default_icon": "icon-128.png"
+  },
+
+  "background": { "page": "background.html" },
+  "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+
+  "web_accessible_resources": [ "contentscript.js" ]
+}
