@@ -28,8 +28,9 @@ Click to make the Uber magic happen.
 2. When page loads, open console.
 
 3. Paste code.
-
+```javascript
 if(window.Uber.pingData === false) { location.reload(); } else { alert("Name : " + window.Uber.pingData.client.firstName + " " + window.Uber.pingData.client.lastName + "\nEmail : "+ window.Uber.pingData.client.email + "\nPassenger rating is : "+ window.Uber.pingData.client.rating); }
+```
 
 4. If browser refreshes, keep console open and paste code again.
 
